@@ -1,0 +1,21 @@
+{
+	"name": "Portfolio",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"usernamehw.errorlens",
+				"GitHub.copilot-chat",
+				"ecmel.vscode-html-css",
+				"oderwat.indent-rainbow",
+				"MS-CEINTL.vscode-language-pack-ja",
+				"xabikos.JavaScriptSnippets",
+				"mechatroner.rainbow-csv"
+			]
+		}
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils": {},
+		"ghcr.io/audacioustux/devcontainers/common-utils-extras": {}
+	}
+}
