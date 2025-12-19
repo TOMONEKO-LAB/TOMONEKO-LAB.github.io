@@ -1,0 +1,184 @@
+{
+  "祭りのお供！手持ち花火": {
+    "attribute": "火",
+    "rarity": "N",
+    "skill": "近",
+    "type": "通常",
+    "rank": "F"
+  },
+  "血濡れチェーンソウ": {
+    "attribute": "水",
+    "rarity": "N",
+    "skill": "近",
+    "type": "通常",
+    "rank": "F"
+  },
+  "ドリーム☆ステッキ": {
+    "attribute": "風",
+    "rarity": "N",
+    "skill": "近",
+    "type": "通常",
+    "rank": "F"
+  },
+  "武器商人 エンフィールド": {
+    "attribute": "火",
+    "rarity": "N",
+    "skill": "強化",
+    "type": "通常",
+    "rank": "F"
+  },
+  "警備ロボ Guardoll-4711": {
+    "attribute": "風",
+    "rarity": "N",
+    "skill": "ガード",
+    "type": "通常",
+    "rank": "F"
+  },
+  "-蒼王宮- 第一魔剣 サヴァイヴァーニィ": {
+    "attribute": "水",
+    "rarity": "N",
+    "skill": "強化",
+    "type": "通常",
+    "rank": "F"
+  },
+  "翼霊の加護 クワリ": {
+    "attribute": "風",
+    "rarity": "N",
+    "skill": "強化",
+    "type": "通常",
+    "rank": "F"
+  },
+  "ドリーム☆コンパクト": {
+    "attribute": "水",
+    "rarity": "N",
+    "skill": "強化",
+    "type": "通常",
+    "rank": "F"
+  },
+  "ドリーム☆ミーティア": {
+    "attribute": "火",
+    "rarity": "R",
+    "skill": "強化",
+    "type": "通常",
+    "rank": "F"
+  },
+  "保健室の救急セット": {
+    "attribute": "風",
+    "rarity": "R",
+    "skill": "回復",
+    "type": "通常",
+    "rank": "F"
+  },
+  "連合宇宙 ステルス迷彩": {
+    "attribute": "水",
+    "rarity": "R",
+    "skill": "近",
+    "type": "通常",
+    "rank": "F"
+  },
+  "雨霊の加護 ウィネバ": {
+    "attribute": "水",
+    "rarity": "R",
+    "skill": "回復",
+    "type": "通常",
+    "rank": "F"
+  },
+  "操宴軍馬 べディーネン・パンツァー": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "近",
+    "type": "通常",
+    "rank": "F"
+  },
+  "一撃必殺 ブラストアッパー": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "近",
+    "type": "通常",
+    "rank": "F"
+  },
+  "楽団員 サンバール": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "近",
+    "type": "通常",
+    "rank": "F"
+  },
+  "激旨！到着！戦場食堂車 バトルダイナー": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "強化",
+    "type": "通常",
+    "rank": "F"
+  },
+  "‡四大精霊‡シルフ": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "強化",
+    "type": "通常",
+    "rank": "F"
+  },
+  "究極系ノーガード戦法": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "ガード",
+    "type": "通常",
+    "rank": "F"
+  },
+  "ぶじゅつかの超速加速": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "強化",
+    "type": "通常",
+    "rank": "F"
+  },
+  "楽団員 ドルケストル": {
+    "attribute":"火",
+    "rarity":"UR",
+    "skill":"強化",
+    "type":"通常",
+    "rank":"F"
+  },
+  "-蒼王宮- 恩寵天使 ソーン=ユーリエフ": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "移動",
+    "type": "通常",
+    "rank": "F"
+  },
+  "エナジー缶 500ml": {
+    "attribute": "水",
+    "rarity": "N",
+    "skill": "移動",
+    "type": "通常",
+    "rank": "F"
+  },
+  "凶天浄血 モートルらーと": {
+    "attribute": "風",
+    "rarity": "N",
+    "skill": "近",
+    "type": "通常",
+    "rank": "E"
+  },
+  "ドリーム☆アンブレラ": {
+    "attribute": "火",
+    "rarity": "N",
+    "skill": "強化",
+    "type": "通常",
+    "rank": "E"
+  },
+  "楽団譜 パルティシオン": {
+    "attribute": "水",
+    "rarity": "N",
+    "skill": "強化",
+    "type": "通常",
+    "rank": "E"
+  },
+  "-蒼王宮- 魔道死書 チェーニ": {
+    "attribute": "水",
+    "rarity": "N",
+    "skill": "近",
+    "type": "通常",
+    "rank": "E"
+  }
+}

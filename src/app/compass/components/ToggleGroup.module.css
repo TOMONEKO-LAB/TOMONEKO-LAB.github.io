@@ -1,0 +1,39 @@
+.container {
+  display: grid;
+  gap: 0.5rem;
+  /* 常に4列にし、ボタンはセル内で縮小/拡大して収まる */
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+}
+
+.btn {
+  padding: 0.25rem 0.4rem; /* 小さめにして収まりを良くする */
+  border-radius: 0.3125rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease, transform 0.06s ease;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  /* フォントサイズをビューポートに応じて調整して縮小/拡大を補助（下限を小さく） */
+  font-size: clamp(10px, 1.6vw, 14px);
+  white-space: nowrap; /* 省略表示で1行に収める */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.selected {
+  background-color: #000000; /* black */
+  color: #ffffff; /* white text */
+  border-color: rgba(0,0,0,0.2);
+}
+
+.unselected {
+  background-color: #6b7280; /* gray-500 */
+  color: #ffffff; /* white text */
+  border-color: rgba(0,0,0,0.06);
+}
