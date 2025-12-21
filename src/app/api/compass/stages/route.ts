@@ -2,6 +2,8 @@ import fs from "fs"
 import path from "path"
 import { NextResponse } from "next/server"
 
+export const dynamic = "force-static"
+
 type StageInfo = {
 	member?: number
 	[k: string]: unknown
