@@ -123,12 +123,12 @@ export default function ResultPage() {
 
       <section role="region" aria-live="polite" aria-labelledby="result-heading">
         <h2 id="result-heading" className="text-xl font-semibold mb-2">結果</h2>
-        <RouletteResult lastResult={lastResult} cardMap={cardMap} />
+        <RouletteResult lastResult={lastResult} cardMap={cardMap} heroMap={heroMap} />
       </section>
 
       <div className="mt-6 flex gap-3 justify-center">
         <button onClick={() => router.push('/compass')} className="border px-4 py-2 rounded">条件に戻る</button>
-        <button onClick={() => doRerollFromSession()} className="bg-blue-600 text-white px-4 py-2 rounded">もう一度回す</button>
+        <button onClick={() => doRerollFromSession()} className="bg-orange-600 text-white px-4 py-2 rounded">条件を変えずにもう一度回す</button>
       </div>
       {validationErrors.length > 0 ? (
         <div className="fixed inset-0 z-50 flex items-center justify-center">

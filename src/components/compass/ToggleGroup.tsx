@@ -12,6 +12,12 @@ type Props = {
 }
 
 export default function ToggleGroup({ label, items, selected, onChange, ariaPrefix = "item" }: Props) {
+  const abbreviations: Record<string, string> = {
+    アタッカー: "アタ",
+    ガンナー: "ガン",
+    スプリンター: "スプ",
+    タンク: "タン",
+  }
   return (
     <div>
       {label ? <label className="block mb-1">{label}</label> : null}
@@ -27,7 +33,8 @@ export default function ToggleGroup({ label, items, selected, onChange, ariaPref
               className={`${styles.btn} ${isSel ? styles.selected : styles.unselected} select-none`}
               onClick={() => onChange({ ...selected, [key]: !isSel })}
             >
-              {key}
+              <span className={styles.labelFull}>{key}</span>
+              <span className={styles.labelShort}>{abbreviations[key] ?? key}</span>
             </button>
           )
         })}

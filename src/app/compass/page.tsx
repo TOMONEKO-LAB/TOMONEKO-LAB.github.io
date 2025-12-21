@@ -136,6 +136,21 @@ export default function CompassPage() {
   return (
     <main className="min-h-screen p-6 sm:p-8 max-w-4xl mx-auto bg-white text-black">
       <h1 className="text-2xl sm:text-3xl font-bold mb-4">コンパスルーレット</h1>
+      <div className="p-4 border border-gray-200 rounded-md bg-gray-50 mb-4">
+        <p>このルーレットは、非公式で作成されたものです。</p>
+        <p>公式とは一切関係ありません。</p>
+        <p>このルーレットは、条件を選択してランダムにヒーローやカード、ステージを選ぶことができます。</p>
+        <p>以下の条件を選択してルーレットを回してください。</p>
+
+        <p>「ヒーローロール」は必ず一つ以上選択してください。</p>
+        <p>「コラボ/通常」は必ず一つ以上選択してください。</p>
+        <p>「カードレアリティ」は必ず一つ以上選択してください。</p>
+        <p>「カードタイプ」は必ず一つ以上選択してください。</p>
+
+        <p className="mt-2 text-sm text-red-600">
+          ※ 本ツールに使用されている名称・画像等の権利は、各権利者に帰属します。
+        </p>
+      </div>
 
       <RouletteForm
         roleFilters={roleFilters}

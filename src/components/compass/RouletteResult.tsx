@@ -2,19 +2,25 @@
 
 import React, { useState, useEffect } from "react"
 import styles from "./RouletteResult.module.css"
-import { Card, CardMap } from "../../types/card"
+import { CardMap } from "../../types/card"
+import { HeroMap } from "../../types/hero"
 
 type Props = {
   lastResult: { hero?: string; cards: string[]; stage?: string } | null
   cardMap: CardMap | null | undefined
+  heroMap?: HeroMap | null | undefined
 }
 
-export default function RouletteResult({ lastResult, cardMap }: Props) {
+export default function RouletteResult({ lastResult, cardMap, heroMap }: Props) {
   const [selectedCard, setSelectedCard] = useState<string | null>(null)
+  const [selectedHero, setSelectedHero] = useState<string | null>(null)
 
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
-      if (e.key === "Escape") setSelectedCard(null)
+      if (e.key === "Escape") {
+        setSelectedCard(null)
+        setSelectedHero(null)
+      }
     }
     window.addEventListener("keydown", onKey)
     return () => window.removeEventListener("keydown", onKey)
@@ -40,18 +46,48 @@ export default function RouletteResult({ lastResult, cardMap }: Props) {
                   <button aria-label="閉じる" className="text-gray-600" onClick={() => setSelectedCard(null)}>×</button>
                 </div>
                 <div className="mt-3 space-y-2">
-                  {info ? (
-                    <>
-                      <div className="text-sm">レアリティ: <span className="font-semibold">{info.rarity}</span></div>
-                      <div className="text-sm">スキル: <span className="font-semibold">{info.skill}</span></div>
-                      <div className="text-sm">属性: <span className="font-semibold">{info.attribute}</span></div>
-                      <div className="text-sm">タイプ: <span className="font-semibold">{info.type}</span></div>
-                      <div className="text-sm">解放ランク: <span className="font-semibold">{info.rank}</span></div>
-                      {info.description ? <div className="text-sm">説明: <div className="mt-1 text-xs text-gray-700">{info.description}</div></div> : null}
-                    </>
-                  ) : (
-                    <div className="text-sm">詳細情報がありません。</div>
-                  )}
+                    {info ? (
+                      <div className="space-y-2">
+                        <table className="w-full text-sm table-fixed">
+                          <tbody>
+                            <tr className="align-top">
+                              <th className="w-28 text-left pr-2 align-top">レアリティ</th>
+                              <td className="w-4">:</td>
+                              <td className="font-semibold">{info.rarity}</td>
+                            </tr>
+                            <tr className="align-top">
+                              <th className="w-28 text-left pr-2">スキル</th>
+                              <td className="w-4">:</td>
+                              <td className="font-semibold">{info.skill}</td>
+                            </tr>
+                            <tr className="align-top">
+                              <th className="w-28 text-left pr-2">属性</th>
+                              <td className="w-4">:</td>
+                              <td className="font-semibold">{info.attribute}</td>
+                            </tr>
+                            <tr className="align-top">
+                              <th className="w-28 text-left pr-2">タイプ</th>
+                              <td className="w-4">:</td>
+                              <td className="font-semibold">{info.type}</td>
+                            </tr>
+                            <tr className="align-top">
+                              <th className="w-28 text-left pr-2">解放ランク</th>
+                              <td className="w-4">:</td>
+                              <td className="font-semibold">{info.rank}</td>
+                            </tr>
+                            {info.description ? (
+                              <tr className="align-top">
+                                <th className="w-28 text-left pr-2">説明</th>
+                                <td className="w-4">:</td>
+                                <td className="mt-1 text-xs text-gray-700">{info.description}</td>
+                              </tr>
+                            ) : null}
+                          </tbody>
+                        </table>
+                      </div>
+                    ) : (
+                      <div className="text-sm">詳細情報がありません。</div>
+                    )}
                 </div>
               </div>
             </div>
@@ -61,9 +97,75 @@ export default function RouletteResult({ lastResult, cardMap }: Props) {
         <div className={styles.hero}>
           <strong>ヒーロー</strong>
           <div className="p-3 border rounded mt-2 bg-white shadow-sm text-black">
-            <div className="truncate text-center font-semibold" title={lastResult.hero ?? "--"}>{lastResult.hero ?? "--"}</div>
+            <div
+              className="truncate text-center font-semibold cursor-pointer"
+              title={lastResult.hero ?? "--"}
+              onClick={() => lastResult?.hero && setSelectedHero(lastResult.hero)}
+              role={lastResult?.hero ? "button" : undefined}
+              tabIndex={lastResult?.hero ? 0 : undefined}
+              onKeyDown={(e) => {
+                if ((e.key === "Enter" || e.key === " ") && lastResult?.hero) setSelectedHero(lastResult.hero)
+              }}
+            >
+              {lastResult.hero ?? "--"}
+            </div>
           </div>
         </div>
+        {selectedHero ? (
+          (() => {
+            const info = heroMap?.[selectedHero]
+            return (
+              <div className="fixed inset-0 z-50 flex items-center justify-center">
+                <div className="absolute inset-0 bg-black/40" onClick={() => setSelectedHero(null)} />
+                <div role="dialog" aria-modal="true" aria-label="ヒーロー詳細" className="relative bg-white text-black rounded shadow-lg max-w-md w-full mx-4 p-4">
+                  <div className="flex justify-between items-start gap-2">
+                    <h3 className="text-lg font-semibold">{selectedHero}</h3>
+                    <button aria-label="閉じる" className="text-gray-600" onClick={() => setSelectedHero(null)}>×</button>
+                  </div>
+                  <div className="mt-3 space-y-2">
+                    {info ? (
+                      <div className="space-y-2">
+                        <table className="w-full text-sm table-fixed">
+                          <tbody>
+                            <tr className="align-top">
+                              <th className="w-28 text-left pr-2">ロール</th>
+                              <td className="w-4">:</td>
+                              <td className="font-semibold">{info.role}</td>
+                            </tr>
+                            {Object.entries(info.card || {}).length > 0 ? (
+                              Object.entries(info.card || {}).map(([k, v], idx) => (
+                                <tr className="align-top" key={k}>
+                                  <th className="w-28 text-left pr-2">{idx === 0 ? "カード" : ""}</th>
+                                  <td className="w-4">{idx === 0 ? ":" : ""}</td>
+                                  <td className="font-semibold">{`${k}: ${v}`}</td>
+                                </tr>
+                              ))
+                            ) : (
+                              <tr className="align-top">
+                                <th className="w-28 text-left pr-2">カード適正</th>
+                                <td className="w-4">:</td>
+                                <td className="font-semibold">-</td>
+                              </tr>
+                            )}
+                            {info.description ? (
+                              <tr className="align-top">
+                                <th className="w-28 text-left pr-2">説明</th>
+                                <td className="w-4">:</td>
+                                <td className="mt-1 text-xs text-gray-700">{info.description}</td>
+                              </tr>
+                            ) : null}
+                          </tbody>
+                        </table>
+                      </div>
+                    ) : (
+                      <div className="text-sm">詳細情報がありません。</div>
+                    )}
+                  </div>
+                </div>
+              </div>
+            )
+          })()
+        ) : null}
       </div>
 
       <div>
