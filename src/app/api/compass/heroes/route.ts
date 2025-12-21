@@ -2,6 +2,8 @@ import fs from "fs"
 import path from "path"
 import { NextResponse } from "next/server"
 
+export const dynamic = "force-static"
+
 type HeroInfo = {
 	role?: string
 	card?: Record<string, string>
