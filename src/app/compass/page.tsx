@@ -2,9 +2,9 @@
 
 import { useState, useEffect } from "react"
 import { useRouter } from "next/navigation"
-import useCompassData from "@/app/hooks/useCompassData"
-import RouletteForm from "@/app/compass/components/RouletteForm"
-import RouletteButtons from "@/app/compass/components/RouletteButtons"
+import useCompassData from "@/hooks/useCompassData"
+import RouletteForm from "@/components/compass/RouletteForm"
+import RouletteButtons from "@/components/compass/RouletteButtons"
 
 export default function CompassPage() {
   const { cards: cardMap, heroes: heroMap, stages: stageMap } = useCompassData()

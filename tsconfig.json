@@ -17,6 +17,7 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "incremental": true,
+    "baseUrl": ".",
     "plugins": [
       {
         "name": "next"
@@ -27,10 +28,10 @@
         "./src/*"
       ],
       "@compass/*": [
-        "./src/app/compass/*"
+        "./src/api/compass/*"
       ],
       "@hooks/*": [
-        "./src/app/hooks/*"
+        "./src/hooks/*"
       ]
     }
   },
@@ -43,6 +44,7 @@
     ".next/dev/types/**/*.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    ".next"
   ]
 }

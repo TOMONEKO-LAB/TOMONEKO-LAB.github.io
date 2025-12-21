@@ -2,15 +2,14 @@
 
 import React, { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
-import useCompassData from "@/app/hooks/useCompassData"
-import RouletteResult from "@/app/compass/components/RouletteResult"
+import useCompassData from "@/hooks/useCompassData"
+import RouletteResult from "@/components/compass/RouletteResult"
 
 export default function ResultPage() {
   const router = useRouter()
   const { cards: cardMap, heroes: heroMap, stages: stageMap } = useCompassData()
   const [lastResult, setLastResult] = useState<{ hero?: string; cards: string[]; stage?: string } | null>(null)
   const [validationErrors, setValidationErrors] = useState<string[]>([])
-  const [heroCollab, setHeroCollab] = useState<Record<string, boolean>>({ コラボ: true, 通常: true })
 
   function pickRandom<T>(arr: T[]) {
     return arr[Math.floor(Math.random() * arr.length)]
