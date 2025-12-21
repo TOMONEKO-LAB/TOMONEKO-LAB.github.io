@@ -2,21 +2,21 @@
   "祭りのお供！手持ち花火": {
     "attribute": "火",
     "rarity": "N",
-    "skill": "近",
+    "skill": "近距離",
     "type": "通常",
     "rank": "F"
   },
   "血濡れチェーンソウ": {
     "attribute": "水",
     "rarity": "N",
-    "skill": "近",
+    "skill": "近距離",
     "type": "通常",
     "rank": "F"
   },
   "ドリーム☆ステッキ": {
     "attribute": "風",
     "rarity": "N",
-    "skill": "近",
+    "skill": "近距離",
     "type": "通常",
     "rank": "F"
   },
@@ -72,7 +72,7 @@
   "連合宇宙 ステルス迷彩": {
     "attribute": "水",
     "rarity": "R",
-    "skill": "近",
+    "skill": "近距離",
     "type": "通常",
     "rank": "F"
   },
@@ -86,21 +86,21 @@
   "操宴軍馬 べディーネン・パンツァー": {
     "attribute": "風",
     "rarity": "SR",
-    "skill": "近",
+    "skill": "近距離",
     "type": "通常",
     "rank": "F"
   },
   "一撃必殺 ブラストアッパー": {
     "attribute": "火",
     "rarity": "SR",
-    "skill": "近",
+    "skill": "近距離",
     "type": "通常",
     "rank": "F"
   },
   "楽団員 サンバール": {
     "attribute": "水",
     "rarity": "SR",
-    "skill": "近",
+    "skill": "近距離",
     "type": "通常",
     "rank": "F"
   },
@@ -156,7 +156,7 @@
   "凶天浄血 モートルらーと": {
     "attribute": "風",
     "rarity": "N",
-    "skill": "近",
+    "skill": "近距離",
     "type": "通常",
     "rank": "E"
   },
@@ -177,8 +177,1261 @@
   "-蒼王宮- 魔道死書 チェーニ": {
     "attribute": "水",
     "rarity": "N",
-    "skill": "近",
+    "skill": "近距離",
     "type": "通常",
     "rank": "E"
+  },
+  "初級魔法 ふれいむ": {
+    "attribute": "火",
+    "rarity": "R",
+    "skill": "遠距離",
+    "type": "通常",
+    "rank": "E"
+  },
+  "銀行強盗 デリンジャー": {
+    "attribute": "風",
+    "rarity": "R",
+    "skill": "遠距離",
+    "type": "通常",
+    "rank": "E"
+  },
+  "不思議の一休み「トランプちゃん」": {
+    "attribute": "風",
+    "rarity": "R",
+    "skill": "近距離",
+    "type": "通常",
+    "rank": "E"
+  },
+  "焼却ロボ Fladoll-4649": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "遠距離",
+    "type": "通常",
+    "rank": "E"
+  },
+  "ひめたる力の覚醒": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "強化",
+    "type": "通常",
+    "rank": "E"
+  },
+  "聖女の守り手 黒猫リリィ": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "回復",
+    "type": "通常",
+    "rank": "E"
+  },
+  "楽団員 アルプ": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "回復",
+    "type": "通常",
+    "rank": "E"
+  },
+  "-蒼王宮- 白翼騎士 ジェニト": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "近距離",
+    "type": "通常",
+    "rank": "E"
+  },
+  "樹霊の加護 イシュティニケ": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "近距離",
+    "type": "通常",
+    "rank": "E"
+  },
+  "対消滅ロングレンジライフルHum-Buster": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "遠距離",
+    "type": "通常",
+    "rank": "E"
+  },
+  "名門サッカー部 イナズマシュート": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "遠距離",
+    "type": "通常",
+    "rank": "E"
+  },
+  "魂をつかさどる聖天使 ガブリエル": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "回復",
+    "type": "通常",
+    "rank": "E"
+  },
+  "妖炎参謀 月夜叉": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "回復",
+    "type": "通常",
+    "rank": "E"
+  },
+  "UMEEEEEE!!! ㌍伝道 通信教育カラァーテェ": {
+    "attribute": "風",
+    "rarity": "UP",
+    "skill": "近距離",
+    "type": "通常",
+    "rank": "E"
+  },
+  "祭りの土産！手作り爆竹": {
+    "attribute": "火",
+    "rarity": "N",
+    "skill": "連続",
+    "type": "通常",
+    "rank": "D"
+  },
+  "無限軍旅 ケルパーズ": {
+    "attribute": "水",
+    "rarity": "N",
+    "skill": "連続",
+    "type": "通常",
+    "rank": "D"
+  },
+  "聖女の近衛 デュノワ伯": {
+    "attribute": "風",
+    "rarity": "N",
+    "skill": "連続",
+    "type": "通常",
+    "rank": "D"
+  },
+  "悪徳警官 トミー": {
+    "attribute": "風",
+    "rarity": "N",
+    "skill": "近距離",
+    "type": "通常",
+    "rank": "D"
+  },
+  "必殺！滅殺！超重力砲 G-バズーカ": {
+    "attribute": "水",
+    "rarity": "N",
+    "skill": "遠距離",
+    "type": "通常",
+    "rank": "D"
+  },
+  "はらぺこゴースト": {
+    "attribute": "水",
+    "rarity": "N",
+    "skill": "弱体化",
+    "type": "通常",
+    "rank": "D"
+  },
+  "聖女の親友 修道女マリー": {
+    "attribute": "水",
+    "rarity": "R",
+    "skill": "回復",
+    "type": "通常",
+    "rank": "D"
+  },
+  "たんじょうび ぷれぜんと": {
+    "attribute": "火",
+    "rarity": "R",
+    "skill": "弱体化",
+    "type": "通常",
+    "rank": "D"
+  },
+  "紅薔薇の聖王剣 セルピエンテ": {
+    "attribute": "風",
+    "rarity": "R",
+    "skill": "弱体化",
+    "type": "通常",
+    "rank": "D"
+  },
+  "アイちゃんのおススメ防弾パーカー": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "ガード",
+    "type": "通常",
+    "rank": "D"
+  },
+  "＊支配の美＊　エレンホス": {
+    "attribute": "風",
+    "rarity": "R",
+    "skill": "弱体化",
+    "type": "通常",
+    "rank": "D"
+  },
+  "#夜行犯罪特区 #天馬エイワズ": {
+    "attribute": "火",
+    "rarity": "R",
+    "skill": "回復",
+    "type": "通常",
+    "rank": "D"
+  },
+  "ゲームバズーカ": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "遠距離",
+    "type": "通常",
+    "rank": "D"
+  },
+  "聖槍ろんぎぬす": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "近距離",
+    "type": "通常",
+    "rank": "D"
+  },
+  "連合宇宙軍 フルアーマー機動兵": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "強化",
+    "type": "通常",
+    "rank": "D"
+  },
+  "おにいちゃん ぎゅーってして": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "弱体化",
+    "type": "通常",
+    "rank": "D"
+  },
+  "ドスブラック★シスコンブラザー": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "弱体化",
+    "type": "通常",
+    "rank": "D"
+  },
+  "戦火の灯/ フレイヤ -哀傷のドッグタグ-": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "回復",
+    "type": "通常",
+    "rank": "D"
+  },
+  "機航師団 フルーク・ツォイク": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "近距離",
+    "type": "通常",
+    "rank": "D"
+  },
+  "荒れ狂う天空王 ぶれいずどらごん": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "近距離",
+    "type": "通常",
+    "rank": "D"
+  },
+  "祭りの真打ち！打ち上げ花火": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "回復",
+    "type": "通常",
+    "rank": "D"
+  },
+  "おかあさん だーいすき": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "弱体化",
+    "type": "通常",
+    "rank": "D"
+  },
+  "戦略の灯/ 国防長官フレイ": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "回復",
+    "type": "通常",
+    "rank": "D"
+  },
+  "闘魂！注入！受け継がれし魂 ゲームバズーカ": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "遠距離",
+    "type": "通常",
+    "rank": "D"
+  },
+  "エナジー缶 1000ml": {
+    "attribute": "水",
+    "rarity": "R",
+    "skill": "移動",
+    "type": "通常",
+    "rank": "D"
+  },
+  "連合宇宙軍 スタンビームライフル": {
+    "attribute": "水",
+    "rarity": "N",
+    "skill": "遠距離",
+    "type": "通常",
+    "rank": "C"
+  },
+  "UMEEEEEE!!! ㌍千倍 カロリカルコーラ": {
+    "attribute": "火",
+    "rarity": "N",
+    "skill": "周囲",
+    "type": "通常",
+    "rank": "C"
+  },
+  "連合宇宙軍 ジャスティスハンマー": {
+    "attribute": "火",
+    "rarity": "R",
+    "skill": "周囲",
+    "type": "通常",
+    "rank": "C"
+  },
+  "きょうせんしの大剣": {
+    "attribute": "水",
+    "rarity": "R",
+    "skill": "周囲",
+    "type": "通常",
+    "rank": "C"
+  },
+  "爆弾魔 バルカン": {
+    "attribute": "風",
+    "rarity": "R",
+    "skill": "周囲",
+    "type": "通常",
+    "rank": "C"
+  },
+  "爆術死鬼 ツクモ": {
+    "attribute": "火",
+    "rarity": "R",
+    "skill": "設置",
+    "type": "通常",
+    "rank": "C"
+  },
+  "祭りの終わり！満点提灯": {
+    "attribute": "火",
+    "rarity": "R",
+    "skill": "強化",
+    "type": "通常",
+    "rank": "C"
+  },
+  "崩愛の爆弾 ジ・エラー": {
+    "attribute": "水",
+    "rarity": "R",
+    "skill": "設置",
+    "type": "通常",
+    "rank": "C"
+  },
+  "レーザー特注忍具 -双天小烏丸-": {
+    "attribute": "水",
+    "rarity": "R",
+    "skill": "強化",
+    "type": "通常",
+    "rank": "C"
+  },
+  "戦士の灯/ 超圧縮荷電粒子砲 ラグナロク": {
+    "attribute": "火",
+    "rarity": "R",
+    "skill": "遠距離",
+    "type": "通常",
+    "rank": "C"
+  },
+  "蜘蛛縫組 Ж 愛してマスコット ウサ太郎": {
+    "attribute": "風",
+    "rarity": "R",
+    "skill": "設置",
+    "type": "通常",
+    "rank": "C"
+  },
+  "でんせつのけんとたて": {
+    "attribute": "火",
+    "rarity": "R",
+    "skill": "強化",
+    "type": "通常",
+    "rank": "C"
+  },
+  "切り裂き魔 ジャック": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "連続",
+    "type": "通常",
+    "rank": "C"
+  },
+  "祭り行列！山車燈籠": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "遠距離",
+    "type": "通常",
+    "rank": "C"
+  },
+  "あこがれのアイドルからの声援": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "強化",
+    "type": "通常",
+    "rank": "C"
+  },
+  "情愛の四女 クララ": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "回復",
+    "type": "通常",
+    "rank": "C"
+  },
+  "紅薔薇の不壊盾 イノセンテ": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "強化",
+    "type": "通常",
+    "rank": "C"
+  },
+  "デジタル堅牢忍具 -不可視金蔵-": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "ガード",
+    "type": "通常",
+    "rank": "C"
+  },
+  "＊振付の美＊　オルケーシス": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "近距離",
+    "type": "通常",
+    "rank": "C"
+  },
+  "-蒼王宮- 国滅導師 アカンディラド": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "回復",
+    "type": "通常",
+    "rank": "C"
+  },
+  "【デルミン】エンジェリック.A.破虎": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "遠距離",
+    "type": "通常",
+    "rank": "C"
+  },
+  "UMEEEEEE!!! ㌍倍増 ピッツァハーレム": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "周囲",
+    "type": "通常",
+    "rank": "C"
+  },
+  "‡四大精霊‡ノーム": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "周囲",
+    "type": "通常",
+    "rank": "C"
+  },
+  "宇宙連合軍 強襲制圧型 装甲多脚戦車": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "周囲",
+    "type": "通常",
+    "rank": "C"
+  },
+  "祭りの目玉！ドラゴン花火": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "設置",
+    "type": "通常",
+    "rank": "C"
+  },
+  "どこにでもいけるドア": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "移動",
+    "type": "通常",
+    "rank": "C"
+  },
+  "極悪！最低！悪人派遣会社社長 ベリバッド": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "弱体化",
+    "type": "通常",
+    "rank": "C"
+  },
+  "せかいをまもる！守護星の女神": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "その他",
+    "type": "通常",
+    "rank": "C"
+  },
+  "聖女の秘宝 ペルセウスの足具": {
+    "attribute": "火",
+    "rarity": "N",
+    "skill": "強化",
+    "type": "通常",
+    "rank": "B"
+  },
+  "はらぺこ吸血バット": {
+    "attribute": "火",
+    "rarity": "R",
+    "skill": "近距離",
+    "type": "通常",
+    "rank": "B"
+  },
+  "死献薬 シュタルク・トート": {
+    "attribute": "水",
+    "rarity": "R",
+    "skill": "近距離",
+    "type": "通常",
+    "rank": "B"
+  },
+  "¦¦¦狐ヶ咲¦¦¦ 黒漆祓拵 為次": {
+    "attribute": "火",
+    "rarity": "R",
+    "skill": "カウンター",
+    "type": "通常",
+    "rank": "B"
+  },
+  "放火魔 スコーピオン": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "連続",
+    "type": "通常",
+    "rank": "B"
+  },
+  "電撃ロボ Eledoll-115": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "周囲",
+    "type": "通常",
+    "rank": "B"
+  },
+  "聖女の前衛 ジル・ド・レ": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "連続",
+    "type": "通常",
+    "rank": "B"
+  },
+  "聖女の後衛 銃士レオン": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "遠距離",
+    "type": "通常",
+    "rank": "B"
+  },
+  "地獄の番犬 ケルベロス": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "設置",
+    "type": "通常",
+    "rank": "B"
+  },
+  "連合宇宙軍 広域電磁波ジャマー": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "弱体化",
+    "type": "通常",
+    "rank": "B"
+  },
+  "帝皇機神 ケー二ヒ・イェーガー": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "カード",
+    "type": "通常",
+    "rank": "B"
+  },
+  "ゼルっちの横流しフルオートライフル": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "遠距離",
+    "type": "通常",
+    "rank": "B"
+  },
+  "オンエア部下忍者 -アニマルチューバーズ-": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "連続",
+    "type": "通常",
+    "rank": "B"
+  },
+  "＊伝説ノ美＊　プロティパラリナ": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "強化",
+    "type": "通常",
+    "rank": "B"
+  },
+  "【デルミン】デビルミント島": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "弱体化",
+    "type": "通常",
+    "rank": "B"
+  },
+  "#夜行犯罪特区 #やめるちゃんアゲ": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "カウンター",
+    "type": "通常",
+    "rank": "B"
+  },
+  "UMEEEEEE!!! ㌍満載 ピッツァフルコース": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "設置",
+    "type": "通常",
+    "rank": "B"
+  },
+  "¦¦¦狸ヶ原¦¦¦ 偽紫 刀一郎": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "近距離",
+    "type": "通常",
+    "rank": "B"
+  },
+  "熱血！猛進！配給支援部隊 Mr.ランチャー": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "カウンター",
+    "type": "通常",
+    "rank": "B"
+  },
+  "//*#イレギュラーウィルス#*//": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "設置",
+    "type": "通常",
+    "rank": "B"
+  },
+  "‡四大精霊‡ウンディーネ": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "回復",
+    "type": "通常",
+    "rank": "B"
+  },
+  "‡四大精霊‡サラマンダー": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "強化",
+    "type": "通常",
+    "rank": "B"
+  },
+  "いのちをかいふく！かけだし僧侶": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "回復",
+    "type": "通常",
+    "rank": "B"
+  },
+  "妖軍一統 ゲネラール": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "周囲",
+    "type": "通常",
+    "rank": "B"
+  },
+  "連合宇宙軍 シールドブレイカー": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "弱体化",
+    "type": "通常",
+    "rank": "B"
+  },
+  "恒星間転送装置 Tele-Pass": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "移動",
+    "type": "通常",
+    "rank": "B"
+  },
+  "反導砲 カノーネ・ファイエル": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "近距離",
+    "type": "通常",
+    "rank": "B"
+  },
+  "おとうさん あそんであそんでー": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "弱体化",
+    "type": "通常",
+    "rank": "B"
+  },
+  "ミナ&ルナ&レナのバーゲンセール戦争": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "カウンター",
+    "type": "通常",
+    "rank": "B"
+  },
+  "ハイカラ盟友忍者 -壬生咲みみみ-": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "回復",
+    "type": "通常",
+    "rank": "B"
+  },
+  "＊絢爛ノ美＊　ボラ＆ある日個＆アペイロン": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "周囲",
+    "type": "通常",
+    "rank": "B"
+  },
+  "-蒼王宮- 聖歌連隊 ミローディア": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "回復",
+    "type": "通常",
+    "rank": "B"
+  },
+  "【デルミン】デビルミント始龍": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "近距離",
+    "type": "通常",
+    "rank": "B"
+  },
+  "合体攻撃！ドリーム☆エンジェルズアロー": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "遠距離",
+    "type": "通常",
+    "rank": "B"
+  },
+  "UMEEEEEE!!! ㌍覇王 プニャトフスキ一族": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "設置",
+    "type": "通常",
+    "rank": "B"
+  },
+  "¦¦¦狐ヶ咲¦¦¦ 祓三姉妹 夢色¦桃色": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "カウンター",
+    "type": "通常",
+    "rank": "B"
+  },
+  "戦陣の灯/ VDN-93 強襲揚陸艦 ユグドラシル": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "遠距離",
+    "type": "通常",
+    "rank": "B"
+  },
+  "不思議の王子様「白馬の晴斗くん」": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "回復",
+    "type": "通常",
+    "rank": "B"
+  },
+  "蜘蛛縫組 Ж 三代目組長 蜘蛛縫 正太郎": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "設置",
+    "type": "通常",
+    "rank": "B"
+  },
+  "エナジー缶 4000ml": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "移動",
+    "type": "通常",
+    "rank": "B"
+  },
+  "ポプ子": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "回復",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "ピピ美": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "遠距離",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "ポプ子＆ピピ美": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "遠距離",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【ポプテピピック】POP TEAM EPIC": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "回復",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【ポプテピピック】万全のポプ子": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "強化",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【ポプテピピック】たたかないで…": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "強化",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "ベータ": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "周囲",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "イプシロン": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "周囲",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "イータ": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "ガード",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【陰実】HIGHEST": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "周囲",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【陰実】偽りの中の戯れ": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "周囲",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【陰実】七陰の頭脳": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "回復",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "インデックス": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "回復",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "ラストオーダー": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "強化",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【禁書目録】聖人と天才": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "近距離",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【禁書目録】未元物質（ダークマター）": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "強化",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "レオリオ": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "近距離",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "クラピカ": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "回復",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "カイト": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "周囲",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "ネフェルピトー": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "ガード",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【HUNTER×HUNTER】旅立ちと仲間たち": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "周囲",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【HUNTER×HUNTER】ゾルディック家": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "カウンター",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【HUNTER×HUNTER】奇術師 ヒソカ": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "その他",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【HUNTER×HUNTER】決意と覚悟の拳": {
+    "attribute": "無",
+    "rarity": "UR",
+    "skill": "近距離",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "レグ": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "連続",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "リコ": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "連続",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "ナナチ": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "ガード",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【メイドインアビス】火葬砲": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "連続",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【メイドインアビス】黎明卿": {
+    "attribute": "無",
+    "rarity": "UR",
+    "skill": "遠距離",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【メイドインアビス】ナナチ＆ミーティ": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "回復",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "ターニャ・デグレチャフ": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "カウンター",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "ヴィーシャ": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "回復",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "メアリー": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "周囲",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【幼女戦記】ラインの悪魔": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "近距離",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【幼女戦記】反撃の狼煙": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "その他",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【幼女戦記】神の恩寵": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "強化",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "サムライソード": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "強化",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "岸辺": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "周囲",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "姫野": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "連続",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "東山コベニ": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "回復",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【チェンソーマン】マキマ": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "連続",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【チェンソーマン】早川アキ": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "近距離",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【チェンソーマン】公安対魔特異４課": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "回復",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【チェンソーマン】犬とチェンソー": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "ガード",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "ガッツマン.EXE & 大山デカオ": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "近距離",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "ロール.EXE & 桜井メイル": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "回復",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "Dr.ワイリー": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "その他",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【ロックマンエグゼ】ショックウェーブ": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "近距離",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【ロックマンエグゼ】ダブルストリーム": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "ガード",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【ロックマンエグゼ】アースブレイカー": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "周囲",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "ロキシーの人形": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "弱体化",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "シルフィエット": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "ガード",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "ルイジェルド・スペルディア": {
+    "attribute": "青",
+    "rarity": "SR",
+    "skill": "遠距離",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【無職転生】夕暮れのひと時": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "回復",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【無職転生】すれ違う物語": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "周囲",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【無職転生】無慈悲なる邂逅": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "弱体化",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【ダンまち】聖火の女神と宴": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "近距離",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【ダンまち】恥じらいの疾風": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "その他",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "白井黒子": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "移動",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "初春飾利": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "周囲",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "佐天涙子": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "ガード",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "フレンダ＝セイヴェルン": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "設置",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【超電磁砲】常盤台の超電磁砲（レールガン）": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "遠距離",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【超電磁砲】超能力者（レベル5）の第一位": {
+    "attribute": "青",
+    "rarity": "UR",
+    "skill": "カウンター",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【超電磁砲】とある少女たちの物語": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "回復",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【超電磁砲】幻想殺し（イマジンブレイカー）": {
+    "attribute": "赤",
+    "rarity": "UR",
+    "skill": "近距離",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "ヴェルドラ": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "強化",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "ミリム": {
+    "attribute": "赤",
+    "rarity": "SR",
+    "skill": "回復",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "クレイマン": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "近距離",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【転スラ】転生したらスライムだった件": {
+    "attribute": "青",
+    "rarity": "UR",
+    "skill": "ガード",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【転スラ】集う者達": {
+    "attribute": "赤",
+    "rarity": "UR",
+    "skill": "周囲",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【転スラ】受け継がれる想い": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "遠距離",
+    "type": "コラボ",
+    "rank": ""
   }
 }
