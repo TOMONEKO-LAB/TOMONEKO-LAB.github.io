@@ -1,0 +1,70 @@
+.container {
+  display: grid;
+  gap: 0.5rem;
+  /* 常に4列にし、ボタンはセル内で縮小/拡大して収まる */
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+}
+
+.btn {
+  padding: 0.75rem 0.4rem; /* ルーレット回すボタンの縦幅(py-3=0.75rem)に合わせる */
+  border-radius: 0.3125rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease, transform 0.06s ease;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  /* フォントサイズをビューポートに応じて調整して縮小/拡大を補助（やや大きめに） */
+  font-size: clamp(12px, 2vw, 16px);
+  white-space: nowrap; /* 省略表示で1行に収める */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ラベルの切替: デフォルトはフルラベル表示 */
+.labelFull {
+  display: inline;
+}
+.labelShort {
+  display: none;
+}
+
+/* 横幅が331px以上なら短縮ラベルを表示する */
+@media (min-width: 331px) {
+  .labelFull { display: none; }
+  .labelShort { display: inline; }
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.selected {
+  background-color: #000000; /* black */
+  color: #ffffff; /* white text */
+  border-color: rgba(0,0,0,0.2);
+}
+
+.unselected {
+  background-color: #6b7280; /* gray-500 */
+  color: #ffffff; /* white text */
+  border-color: rgba(0,0,0,0.06);
+}
+
+/* label variants: full (default) and short (for very narrow screens) */
+.labelFull {
+  display: inline;
+}
+.labelShort {
+  display: none;
+}
+
+@media (max-width: 430px) {
+  .labelFull {
+    display: none;
+  }
+  .labelShort {
+    display: inline;
+  }
+}

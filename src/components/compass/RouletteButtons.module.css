@@ -1,0 +1,13 @@
+.root {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.primary {
+  /* ボタンの横幅調整は Tailwind 側で行うが、最小幅を確保 */
+  min-width: 8rem;
+}
+
+.secondary {
+  min-width: 8rem;
+}

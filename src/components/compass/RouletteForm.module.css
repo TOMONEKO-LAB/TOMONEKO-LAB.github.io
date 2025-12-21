@@ -1,0 +1,18 @@
+.root {
+  /* コンポーネント全体のマージン調整 */
+  margin-bottom: 0.75rem;
+}
+
+.fieldset {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.checkboxWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.375rem;
+}
