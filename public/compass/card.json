@@ -274,7 +274,7 @@
   },
   "UMEEEEEE!!! ㌍伝道 通信教育カラァーテェ": {
     "attribute": "風",
-    "rarity": "UP",
+    "rarity": "UR",
     "skill": "近距離",
     "type": "通常",
     "rank": "E"
@@ -929,6 +929,560 @@
     "skill": "移動",
     "type": "通常",
     "rank": "B"
+  },
+  "剣道部エースの五月雨突き": {
+    "attribute": "水",
+    "rarity": "R",
+    "skill": "連続",
+    "type": "通常",
+    "rank": "A"
+  },
+  "千血妖刀 牛鬼村正": {
+    "attribute": "風",
+    "rarity": "R",
+    "skill": "近距離",
+    "type": "通常",
+    "rank": "A"
+  },
+  "はらぺこメイジ": {
+    "attribute": "風",
+    "rarity": "R",
+    "skill": "近距離",
+    "type": "通常",
+    "rank": "A"
+  },
+  "祭りの思い出！おじいちゃんの祝砲": {
+    "attribute": "火",
+    "rarity": "R",
+    "skill": "近距離",
+    "type": "通常",
+    "rank": "A"
+  },
+  "【デルミン】オニギリクママン": {
+    "attribute": "火",
+    "rarity": "R",
+    "skill": "近距離",
+    "type": "通常",
+    "rank": "A"
+  },
+  "‡焼亡の森‡静寂の宝槍 ルー": {
+    "attribute": "風",
+    "rarity": "R",
+    "skill": "連続",
+    "type": "通常",
+    "rank": "A"
+  },
+  
+  "‡滅国の城‡名も亡き眷属コウモリ": {
+    "attribute": "水",
+    "rarity": "R",
+    "skill": "近距離",
+    "type": "通常",
+    "rank": "A"
+  },
+  "看守長 キャバルリー": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "周囲",
+    "type": "通常",
+    "rank": "A"
+  },
+  "全翼飛将 グライフ": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "周囲",
+    "type": "通常",
+    "rank": "A"
+  },
+  "魔法少女☆ルルカ": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "周囲",
+    "type": "通常",
+    "rank": "A"
+  },
+  "化学部の放課後ジッケンタイム": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "周囲",
+    "type": "通常",
+    "rank": "A"
+  },
+  "祭りの華！だんじりガール": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "回復",
+    "type": "通常",
+    "rank": "A"
+  },
+  "拷問間 パウ・ライヒェ": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "近距離",
+    "type": "通常",
+    "rank": "A"
+  },
+  "奏愛の三女 エレオノーラ": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "設置",
+    "type": "通常",
+    "rank": "A"
+  },
+  "紅薔薇の生命線 パレンティア": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "周囲",
+    "type": "通常",
+    "rank": "A"
+  },
+  "-蒼王宮- 翠光騎士 リョーフキー": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "回復",
+    "type": "通常",
+    "rank": "A"
+  },
+  "-蒼王宮- 監獄騎士 ヴィーセリツァ": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "周囲",
+    "type": "通常",
+    "rank": "A"
+  },
+  "#夜行犯罪特区 #メビウス目撃情報": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "連続",
+    "type": "通常",
+    "rank": "A"
+  },
+  "魔法少女 レレカ☆ロロカ": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "近距離",
+    "type": "通常",
+    "rank": "A"
+  },
+  "¦¦¦狐ヶ咲¦¦¦ 四典老師 虹色": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "カウンター",
+    "type": "通常",
+    "rank": "A"
+  },
+  "戦慄の灯/ AGBW-3990N ヘイムダル": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "連続",
+    "type": "通常",
+    "rank": "A"
+  },
+  "不思議の籠球部「白秋晴斗くん」": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "周囲",
+    "type": "通常",
+    "rank": "A"
+  },
+  "蜘蛛縫組 Ж 舎弟衆 万亀川/蛇ノ目/虎山": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "設置",
+    "type": "通常",
+    "rank": "A"
+  },
+  "学園の王者 生徒会執行部": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "連続",
+    "type": "通常",
+    "rank": "A"
+  },
+  "オールレンジアタック": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "周囲",
+    "type": "通常",
+    "rank": "A"
+  },
+  "迅雷の科学者 アバカン": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "遠距離",
+    "type": "通常",
+    "rank": "A"
+  },
+  "連合宇宙軍 サテライトキャノン": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "周囲",
+    "type": "通常",
+    "rank": "A"
+  },
+  "全員集合！魔法少女リリカ☆ルルカ": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "遠距離",
+    "type": "通常",
+    "rank": "A"
+  },
+  "狂愛の次女 ヴァルヴァラ": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "周囲",
+    "type": "通常",
+    "rank": "A"
+  },
+  "紅薔薇の暗殺術 クルエルダー": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "遠距離",
+    "type": "通常",
+    "rank": "A"
+  },
+  "チーちゃんのウワキオシオキ狙撃": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "遠距離",
+    "type": "通常",
+    "rank": "A"
+  },
+  "創霊の加護 タイオワ": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "強化",
+    "type": "通常",
+    "rank": "A"
+  },
+  "＊真実ノ美＊　ジョバンニ": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "カウンター",
+    "type": "通常",
+    "rank": "A"
+  },
+  "【デルミン】デビルミント鬼龍パパミン": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "周囲",
+    "type": "通常",
+    "rank": "A"
+  },
+  "絶夢の魔女 リベレーション★ルルカ": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "周囲",
+    "type": "通常",
+    "rank": "A"
+  },
+  "¦¦¦狐ヶ咲¦¦¦ 破戒怨士 喰色": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "近距離",
+    "type": "通常",
+    "rank": "A"
+  },
+  "‡滅国の城‡双生王 レヴィ・シュシュマルシュ": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "近距離",
+    "type": "通常",
+    "rank": "A"
+  },
+  "‡滅国の城‡偽らざる鮮血の玉座": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "周囲",
+    "type": "通常",
+    "rank": "A"
+  },
+  "液体金属ロボ Metdoll-774": {
+    "attribute": "水",
+    "rarity": "N",
+    "skill": "設置",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "//*#イレギュラーウィング#*//": {
+    "attribute": "水",
+    "rarity": "N",
+    "skill": "その他",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "反政府勢力クラッキング Case-171": {
+    "attribute": "風",
+    "rarity": "R",
+    "skill": "弱体化",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "かぞく みんなで おしゃしん": {
+    "attribute": "風",
+    "rarity": "R",
+    "skill": "設置",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "魔法少女☆ララカ": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "遠距離",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "祭りの開始！どでかい和太鼓": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "周囲",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "呪詛包帯": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "設置",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "不思議の美術部「玄冬淡雪＆朱夏夜雨ちゃん」": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "弱体化",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "蜘蛛縫組 Ж 組本部 裁縫会合室": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "設置",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "//*#イレギュラー Errordoll-18782#*//": {
+    "attribute": "無",
+    "rarity": "SR",
+    "skill": "近距離",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "まおうのせんぺい！殺戮武闘ロボ": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "その他",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "とある家庭用メカの反乱": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "連続",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "運命の女神 エボリューション☆リリカ": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "遠距離",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "革命の旗": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "周囲",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "深淵より湧き上がるシャドウ": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "遠距離",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "ドリーム☆マジカルスクエア": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "弱体化",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "全天首都防壁 Hum-Sphere LLIK": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "ガード",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "銀河防衛ロボ Unidoll-2525": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "回復",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "祭りの粋！オトコの手筒花火": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "その他",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "モノリス Hum-Unknown": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "設置",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "神技官 アンジュ・ソレイユ": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "回復",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "独災者 アングリフ・ギフト": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "遠距離",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "忘愛の長女 アレクサンドラ": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "設置",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "楽団姫 ディーバ": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "ガード",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "紅薔薇の副団長 アミスター": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "その他",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "-蒼王宮- 氷冠女王イデア=N=ユランブルク": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "弱体化",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "ガルガルのピカピカデコ戦車": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "その他",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "雷霊の加護 ワキンヤン": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "近距離",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "ライバル狂刃忍者 -幽々院ゆらら-": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "連続",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "-蒼王宮- 終焉禁獣 グラナート": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "周囲",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "背に負いし亡き妻の加護": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "ガード",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "#夜行犯罪特区 #きてるちゃんライヴ": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "その他",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "#夜行犯罪特区 #終夜の俺様賛美会": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "その他",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "不思議の支配者「ハートの女王さま」": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "その他",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "蜘蛛縫組 Ж 面従相談役 千切 常影": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "設置",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "//*#イレギュラー 戦闘摂理偽装システム#*//": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "その他",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "//*#イレギュラードールズ#*//": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "その他",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "‡焼亡の森‡溺愛弟 ルー・メルク・シルク": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "強化",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "‡焼亡の森‡奴隷狩り密売団 ケルマト": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "設置",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "せかいをはかい！恐怖の大魔王": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "近距離",
+    "type": "通常",
+    "rank": "S1"
+  },
+  "エナジー缶 100000ml": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "移動",
+    "type": "通常",
+    "rank": "S1"
   },
   "ポプ子": {
     "attribute": "火",
