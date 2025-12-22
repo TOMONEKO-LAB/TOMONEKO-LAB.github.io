@@ -15,6 +15,14 @@ export default function ResultPage() {
     return arr[Math.floor(Math.random() * arr.length)]
   }
 
+  function shuffle<T>(arr: T[]) {
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1))
+      ;[arr[i], arr[j]] = [arr[j], arr[i]]
+    }
+    return arr
+  }
+
   function doRerollFromSession() {
     try {
       const rfRaw = sessionStorage.getItem("compass-roleFilters")
@@ -23,13 +31,13 @@ export default function ResultPage() {
       const isRaw = sessionStorage.getItem("compass-includeStage")
       const tmRaw = sessionStorage.getItem("compass-teamMembers")
 
-      const roleFilters: Record<string, boolean> = rfRaw ? JSON.parse(rfRaw) : { アタッカー: true, ガンナー: true, タンク: true, スプリンター: true }
-      const rarityFilters: Record<string, boolean> = rarRaw ? JSON.parse(rarRaw) : { N: true, R: true, SR: true, UR: true }
-      const typeFilters: Record<string, boolean> = tfRaw ? JSON.parse(tfRaw) : { "通常": true, "コラボ": true, "シーズン": true, "イベント": true }
-      const includeStage: boolean = isRaw ? JSON.parse(isRaw) : true
+      const roleFilters: Record<string, boolean> = rfRaw ? JSON.parse(rfRaw) : { アタッカー: false, ガンナー: false, タンク: false, スプリンター: false }
+      const rarityFilters: Record<string, boolean> = rarRaw ? JSON.parse(rarRaw) : { N: false, R: false, SR: false, UR: false }
+      const typeFilters: Record<string, boolean> = tfRaw ? JSON.parse(tfRaw) : { "通常": false, "コラボ": false, "シーズン": false, "イベント": false }
+      const includeStage: boolean = isRaw ? JSON.parse(isRaw) : false
       const teamMembers: number = tmRaw ? JSON.parse(tmRaw) : 3
       const hcRaw = sessionStorage.getItem("compass-heroCollab")
-      const heroCollab: Record<string, boolean> = hcRaw ? JSON.parse(hcRaw) : { コラボ: true, 通常: true }
+      const heroCollab: Record<string, boolean> = hcRaw ? JSON.parse(hcRaw) : { コラボ: false, 通常: false }
 
       const enabledRoles = Object.entries(roleFilters).filter(([, v]) => v).map(([k]) => k)
       const enabledRarities = Object.entries(rarityFilters).filter(([, v]) => v).map(([k]) => k)
@@ -74,7 +82,9 @@ export default function ResultPage() {
         ;(cardsBySkill[skill] ||= []).push(name)
       }
 
-      for (const skill of Object.keys(cardsBySkill)) {
+      const skills = Object.keys(cardsBySkill)
+      shuffle(skills)
+      for (const skill of skills) {
         if (selected.length >= 4) break
         selected.push(pickRandom(cardsBySkill[skill]))
       }
@@ -115,7 +125,6 @@ export default function ResultPage() {
       // ignore
     }
   }, [cardMap, heroMap, stageMap])
-
 
   return (
     <main className="min-h-screen p-6 sm:p-8 max-w-4xl mx-auto bg-white text-black">

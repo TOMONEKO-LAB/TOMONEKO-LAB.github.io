@@ -12,21 +12,29 @@ export default function CompassPage() {
   const router = useRouter()
 
   const [roleFilters, setRoleFilters] = useState<Record<string, boolean>>({
-    アタッカー: true,
-    ガンナー: true,
-    タンク: true,
-    スプリンター: true,
+    アタッカー: false,
+    ガンナー: false,
+    タンク: false,
+    スプリンター: false,
   })
-  const [rarityFilters, setRarityFilters] = useState<Record<string, boolean>>({ N: true, R: true, SR: true, UR: true })
-  const [typeFilters, setTypeFilters] = useState<Record<string, boolean>>({ "通常": true, "コラボ": true, "シーズン": true, "イベント": true })
-  const [includeStage, setIncludeStage] = useState(true)
+  const [rarityFilters, setRarityFilters] = useState<Record<string, boolean>>({ N: false, R: false, SR: false, UR: false })
+  const [typeFilters, setTypeFilters] = useState<Record<string, boolean>>({ "通常": false, "コラボ": false, "シーズン": false, "イベント": false })
+  const [includeStage, setIncludeStage] = useState(false)
   const [teamMembers, setTeamMembers] = useState<number>(3)
-  const [heroCollab, setHeroCollab] = useState<Record<string, boolean>>({ コラボ: true, 通常: true })
+  const [heroCollab, setHeroCollab] = useState<Record<string, boolean>>({ コラボ: false, 通常: false })
   const [lastResult, setLastResult] = useState<{ hero?: string; cards: string[]; stage?: string } | null>(null)
   const [validationErrors, setValidationErrors] = useState<string[]>([])
 
   function pickRandom<T>(arr: T[]) {
     return arr[Math.floor(Math.random() * arr.length)]
+  }
+
+  function shuffle<T>(arr: T[]) {
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1))
+      ;[arr[i], arr[j]] = [arr[j], arr[i]]
+    }
+    return arr
   }
 
   function roll() {
@@ -75,7 +83,9 @@ export default function CompassPage() {
       ;(cardsBySkill[skill] ||= []).push(name)
     }
 
-    for (const skill of Object.keys(cardsBySkill)) {
+    const skills = Object.keys(cardsBySkill)
+    shuffle(skills)
+    for (const skill of skills) {
       if (selected.length >= 4) break
       selected.push(pickRandom(cardsBySkill[skill]))
     }
