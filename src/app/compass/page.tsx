@@ -75,26 +75,8 @@ export default function CompassPage() {
       return rarityOk && typeOk
     })
 
-    const selected: string[] = []
-    const cardsBySkill: Record<string, string[]> = {}
-    for (const name of filteredCards) {
-      const info = cardMap?.[name]
-      const skill = info?.skill ?? "other"
-      ;(cardsBySkill[skill] ||= []).push(name)
-    }
-
-    const skills = Object.keys(cardsBySkill)
-    shuffle(skills)
-    for (const skill of skills) {
-      if (selected.length >= 4) break
-      selected.push(pickRandom(cardsBySkill[skill]))
-    }
-    const remainingPool = filteredCards.filter((n) => !selected.includes(n))
-    while (selected.length < 4 && remainingPool.length) {
-      const r = pickRandom(remainingPool)
-      selected.push(r)
-      remainingPool.splice(remainingPool.indexOf(r), 1)
-    }
+    const shuffledCards = shuffle([...filteredCards])
+    const selected = shuffledCards.slice(0, Math.min(4, shuffledCards.length))
 
     let chosenStage: string | undefined
     if (includeStage) {
