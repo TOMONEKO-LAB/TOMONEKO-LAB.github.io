@@ -150,6 +150,7 @@ export default function CompassPage() {
         <p className="mt-2 text-sm text-red-600">
           ※ 本ツールに使用されている名称・画像等の権利は、各権利者に帰属します。
         </p>
+        <p>※ このルーレットは、2025年12月22日現在の最新情報を元に作成されています。</p>
       </div>
 
       <RouletteForm
