@@ -1484,6 +1484,62 @@
     "type": "通常",
     "rank": "S1"
   },
+  "フランチェスカ・プレラーティ": {
+    "attribute": "水",
+    "rarity": "SR",
+    "skill": "ガード",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "オーランド・リーヴ": {
+    "attribute": "風",
+    "rarity": "SR",
+    "skill": "周囲",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "アサシン": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "遠距離",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "ジェスター・カルトゥーレ": {
+    "attribute": "火",
+    "rarity": "SR",
+    "skill": "連続",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【Fate/Strange Fake】To The City": {
+    "attribute": "水",
+    "rarity": "UR",
+    "skill": "ガード",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【Fate/Strange Fake】慢心なき戦": {
+    "attribute": "無",
+    "rarity": "UR",
+    "skill": "近距離",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【Fate/Strange Fake】創られし命達": {
+    "attribute": "風",
+    "rarity": "UR",
+    "skill": "連続",
+    "type": "コラボ",
+    "rank": ""
+  },
+  "【Fate/Strange Fake】時計塔の師弟": {
+    "attribute": "火",
+    "rarity": "UR",
+    "skill": "回復",
+    "type": "コラボ",
+    "rank": ""
+  },
   "ポプ子": {
     "attribute": "火",
     "rarity": "SR",
