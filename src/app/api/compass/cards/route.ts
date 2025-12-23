@@ -4,6 +4,7 @@ import { NextResponse } from "next/server"
 
 export const dynamic = "force-static"
 
+/*
 type CardInfo = {
 	attribute?: string
 	rarity?: string
@@ -28,7 +29,6 @@ function normalize(v: unknown) {
 	return v.trim().toLowerCase().replace(/\s+/g, "")
 }
 
-/*
 export async function GET(req: Request) {
  	const url = new URL(req.url, "http://localhost")
  	const params = url.searchParams
