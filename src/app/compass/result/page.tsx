@@ -25,18 +25,18 @@ export default function ResultPage() {
 
   function doRerollFromSession() {
     try {
-      const rfRaw = sessionStorage.getItem("compass-roleFilters")
-      const rarRaw = sessionStorage.getItem("compass-rarityFilters")
-      const tfRaw = sessionStorage.getItem("compass-typeFilters")
-      const isRaw = sessionStorage.getItem("compass-includeStage")
-      const tmRaw = sessionStorage.getItem("compass-teamMembers")
+      const rfRaw = localStorage.getItem("compass-roleFilters")
+      const rarRaw = localStorage.getItem("compass-rarityFilters")
+      const tfRaw = localStorage.getItem("compass-typeFilters")
+      const isRaw = localStorage.getItem("compass-includeStage")
+      const tmRaw = localStorage.getItem("compass-teamMembers")
 
       const roleFilters: Record<string, boolean> = rfRaw ? JSON.parse(rfRaw) : { アタッカー: false, ガンナー: false, タンク: false, スプリンター: false }
       const rarityFilters: Record<string, boolean> = rarRaw ? JSON.parse(rarRaw) : { N: false, R: false, SR: false, UR: false }
       const typeFilters: Record<string, boolean> = tfRaw ? JSON.parse(tfRaw) : { "通常": false, "コラボ": false, "シーズン": false, "イベント": false }
       const includeStage: boolean = isRaw ? JSON.parse(isRaw) : false
       const teamMembers: number = tmRaw ? JSON.parse(tmRaw) : 3
-      const hcRaw = sessionStorage.getItem("compass-heroCollab")
+      const hcRaw = localStorage.getItem("compass-heroCollab")
       const heroCollab: Record<string, boolean> = hcRaw ? JSON.parse(hcRaw) : { コラボ: false, 通常: false }
 
       const enabledRoles = Object.entries(roleFilters).filter(([, v]) => v).map(([k]) => k)
@@ -86,7 +86,7 @@ export default function ResultPage() {
       const result = { hero: chosenHero, cards: selected, stage: chosenStage }
       setLastResult(result)
       try {
-        sessionStorage.setItem("compass-lastResult", JSON.stringify(result))
+        localStorage.setItem("compass-lastResult", JSON.stringify(result))
       } catch (e) {
         // ignore
       }
@@ -97,7 +97,7 @@ export default function ResultPage() {
 
   useEffect(() => {
     try {
-      const raw = sessionStorage.getItem("compass-lastResult")
+      const raw = localStorage.getItem("compass-lastResult")
       if (raw) setLastResult(JSON.parse(raw))
       else {
         // if no previous result, generate one from stored filters

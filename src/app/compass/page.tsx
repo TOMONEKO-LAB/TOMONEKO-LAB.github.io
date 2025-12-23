@@ -87,13 +87,13 @@ export default function CompassPage() {
     const result = { hero: chosenHero, cards: selected, stage: chosenStage }
     setLastResult(result)
     try {
-      sessionStorage.setItem("compass-lastResult", JSON.stringify(result))
-      sessionStorage.setItem("compass-roleFilters", JSON.stringify(roleFilters))
-      sessionStorage.setItem("compass-rarityFilters", JSON.stringify(rarityFilters))
-      sessionStorage.setItem("compass-typeFilters", JSON.stringify(typeFilters))
-      sessionStorage.setItem("compass-includeStage", JSON.stringify(includeStage))
-      sessionStorage.setItem("compass-teamMembers", JSON.stringify(teamMembers))
-      sessionStorage.setItem("compass-heroCollab", JSON.stringify(heroCollab))
+      localStorage.setItem("compass-lastResult", JSON.stringify(result))
+      localStorage.setItem("compass-roleFilters", JSON.stringify(roleFilters))
+      localStorage.setItem("compass-rarityFilters", JSON.stringify(rarityFilters))
+      localStorage.setItem("compass-typeFilters", JSON.stringify(typeFilters))
+      localStorage.setItem("compass-includeStage", JSON.stringify(includeStage))
+      localStorage.setItem("compass-teamMembers", JSON.stringify(teamMembers))
+      localStorage.setItem("compass-heroCollab", JSON.stringify(heroCollab))
     } catch (e) {
       // ignore
     }
@@ -102,17 +102,17 @@ export default function CompassPage() {
 
   useEffect(() => {
     try {
-      const rf = sessionStorage.getItem("compass-roleFilters")
-      const raf = sessionStorage.getItem("compass-rarityFilters")
-      const tf = sessionStorage.getItem("compass-typeFilters")
-      const is = sessionStorage.getItem("compass-includeStage")
-      const tm = sessionStorage.getItem("compass-teamMembers")
+      const rf = localStorage.getItem("compass-roleFilters")
+      const raf = localStorage.getItem("compass-rarityFilters")
+      const tf = localStorage.getItem("compass-typeFilters")
+      const is = localStorage.getItem("compass-includeStage")
+      const tm = localStorage.getItem("compass-teamMembers")
       if (rf) setRoleFilters(JSON.parse(rf))
       if (raf) setRarityFilters(JSON.parse(raf))
       if (tf) setTypeFilters(JSON.parse(tf))
       if (is) setIncludeStage(JSON.parse(is))
       if (tm) setTeamMembers(JSON.parse(tm))
-      const hc = sessionStorage.getItem("compass-heroCollab")
+      const hc = localStorage.getItem("compass-heroCollab")
       if (hc) {
         try {
           setHeroCollab(JSON.parse(hc))
@@ -142,7 +142,9 @@ export default function CompassPage() {
         <p className="mt-2 text-sm text-red-600">
           ※ 本ツールに使用されている名称・画像等の権利は、各権利者に帰属します。
         </p>
-        <p>※ このルーレットは、2025年12月22日現在の最新情報を元に作成されています。</p>
+        <p className="mt-2 text-sm">
+          ※ このルーレットは、2025年12月22日現在の最新情報を元に作成されています。
+        </p>
       </div>
 
       <RouletteForm
