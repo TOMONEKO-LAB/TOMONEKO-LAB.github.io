@@ -4,6 +4,7 @@ import { NextResponse } from "next/server"
 
 export const dynamic = "force-static"
 
+/*
 type StageInfo = {
 	member?: number
 	[k: string]: unknown
@@ -17,7 +18,6 @@ function parseMulti(params: URLSearchParams, key: string) {
 	return list.length > 0 ? list : undefined
 }
 
-/*
 export async function GET(req: Request) {
  	const url = new URL(req.url, "http://localhost")
  	const params = url.searchParams

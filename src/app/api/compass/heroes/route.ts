@@ -4,6 +4,7 @@ import { NextResponse } from "next/server"
 
 export const dynamic = "force-static"
 
+/*
 type HeroInfo = {
 	role?: string
 	card?: Record<string, string>
@@ -24,7 +25,6 @@ function parseMulti(params: URLSearchParams, key: string) {
 	return list.length > 0 ? list : undefined
 }
 
-/*
 export async function GET(req: Request) {
  	// original implementation commented out; preserved here for reference
  	const url = new URL(req.url, "http://localhost")
