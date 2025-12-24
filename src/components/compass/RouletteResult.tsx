@@ -2,8 +2,8 @@
 
 import React, { useState, useEffect } from "react"
 import styles from "./RouletteResult.module.css"
-import { CardMap } from "../../types/card"
-import { HeroMap } from "../../types/hero"
+import { CardMap } from "@/types/compass/card"
+import { HeroMap } from "@/types/compass/hero"
 
 type Props = {
   lastResult: { hero?: string; cards: string[]; stage?: string } | null
