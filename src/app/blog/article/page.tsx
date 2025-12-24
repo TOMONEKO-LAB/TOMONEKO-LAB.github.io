@@ -4,7 +4,7 @@ import MarkdownWrapper from "@/components/blog/MarkdownWrapper";
 import { Article } from "@/types/blog/article";
 import styles from '../BlogPage.module.css';
 
-export default function ArticlePage({
+export default async function ArticlePage({
   searchParams
 }: { searchParams: {
     title?: string;
@@ -12,13 +12,14 @@ export default function ArticlePage({
     tags?: string | string[];
   };
 }) {
+  const params = await searchParams;
   const article :Article = {
-    title: searchParams.title || '',
+    title: params.title || '',
     description: '',
     date: '',
-    tags: Array.isArray(searchParams.tags) ? searchParams.tags : searchParams.tags ? [searchParams.tags] : [],
+    tags: Array.isArray(params.tags) ? params.tags : params.tags ? [params.tags] : [],
     slug: '',
-    content: searchParams.content || '',
+    content: params.content || '',
   };
 
   return (
