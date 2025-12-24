@@ -1,6 +1,8 @@
 export type HeroInfo = {
   name?: string;
   title?: string;
+  role?: string;
+  isCollab?: boolean;
   [k: string]: unknown;
 }
 

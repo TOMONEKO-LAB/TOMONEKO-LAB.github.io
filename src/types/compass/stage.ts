@@ -1,6 +1,7 @@
 export type StageInfo = {
   name?: string;
   difficulty?: string;
+  member?: number;
   [k: string]: unknown;
 }
 
