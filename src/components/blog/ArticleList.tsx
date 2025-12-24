@@ -12,10 +12,14 @@ export default function ArticleList({ conditions }: { conditions: Condition }) {
       <div className={styles['article-list']}>
         {articles.map((article) => (
           article.tags.some((tag) =>
-            /* タグとキーワードで絞る */
-            (tag.includes(conditions.tags.join(" ")) && article.title.includes(conditions.keywords.join(" "))) ||
-            /* タグとキーワードが指定されていない場合はすべて表示 */
-            (conditions.tags.length === 0 && conditions.keywords.length === 0)
+            /* タグ未指定 */
+            (conditions.tags.length === 0 ||
+            /* タグで絞る */
+            conditions.tags.some(conditionTag => tag.includes(conditionTag))) &&
+            /* キーワード未指定 */
+            (conditions.keywords.length === 0 ||
+            /* キーワードで絞る */
+            conditions.keywords.some(keyword => article.title.includes(keyword)))
           ) && (
             <Link
               href={`/blog/${article.slug}`}
