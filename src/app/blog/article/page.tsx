@@ -1,21 +1,24 @@
-"use client";
-
 import Header from "@/components/blog/Header";
 import Footer from "@/components/blog/Footer";
 import MarkdownWrapper from "@/components/blog/MarkdownWrapper";
-import { useSearchParams } from "next/navigation";
 import { Article } from "@/types/blog/article";
 import styles from '../BlogPage.module.css';
 
-export default function ArticlePage() {
-  const searchParams = useSearchParams();
+export default function ArticlePage({
+  searchParams
+}: { searchParams: {
+    title?: string;
+    content?: string;
+    tags?: string | string[];
+  };
+}) {
   const article :Article = {
-    title: searchParams.get('title') || '',
+    title: searchParams.title || '',
     description: '',
     date: '',
-    tags: searchParams.getAll('tags'),
+    tags: Array.isArray(searchParams.tags) ? searchParams.tags : searchParams.tags ? [searchParams.tags] : [],
     slug: '',
-    content: searchParams.get('content') || '',
+    content: searchParams.content || '',
   };
 
   return (
