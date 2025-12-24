@@ -1,0 +1,57 @@
+.markdown-wrapper {
+	max-width: 800px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 0 1rem;
+	color: #ffffff;
+}
+
+.markdown-wrapper h1,
+.markdown-wrapper h2,
+.markdown-wrapper h3,
+.markdown-wrapper h4 {
+	color: var(--accent);
+}
+
+.markdown-wrapper p,
+.markdown-wrapper li,
+.markdown-wrapper a,
+.markdown-wrapper blockquote {
+	color: #ffffff;
+}
+
+.prose {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding: 0 1.25rem;
+	box-sizing: border-box;
+}
+
+.prose > * {
+	margin-left: auto !important;
+	margin-right: auto !important;
+	max-width: 900px !important;
+	box-sizing: border-box !important;
+}
+
+.markdown-wrapper,
+.markdown-wrapper p,
+.markdown-wrapper li,
+.markdown-wrapper a,
+.markdown-wrapper blockquote {
+	color: #ffffff !important;
+}
+
+.markdown-wrapper h1,
+.markdown-wrapper h2,
+.markdown-wrapper h3,
+.markdown-wrapper h4 {
+	color: var(--accent) !important;
+}
+
+.markdown-wrapper h1,
+.markdown-wrapper h2 {
+	text-align: center;
+}

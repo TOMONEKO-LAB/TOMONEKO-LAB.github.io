@@ -1,0 +1,20 @@
+/* Blog page root variables and layout */
+.blogPage {
+  --base: #0E1331; /* ベースカラー（背景） */
+  --main: #0E397B; /* メインカラー（ヘッダー・プライマリ） */
+  --accent: #D7BC61; /* アクセントカラー（リンク・強調） */
+  --text: #E6E9F2; /* 本文のメインテキスト色 */
+  --muted: #BFC7D6; /* 補助テキスト色 */
+
+  background-color: var(--base);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensure main area spacing similar to previous globals */
+.blogPage main {
+  padding: 2rem;
+  flex: 1 1 auto;
+}
