@@ -6,7 +6,13 @@ import Footer from "@/components/blog/Footer";
 import MarkdownWrapper from "@/components/blog/MarkdownWrapper";
 import { notFound } from "next/navigation";
 import { Article } from "@/types/blog/article";
+import { Metadata } from "next";
 import styles from '../BlogPage.module.css';
+
+export const metadata: Metadata = {
+  title: 'Blog | ',
+  description: 'Read our latest blog articles on various topics.',
+};
 
 const getArticles = (): Article[] => {
   const ArticlePath = path.join(process.cwd(), `/public/blog/`);
@@ -42,6 +48,8 @@ export default async function ArticlePage({ params }: { params: { slug: Article[
   if (!article) {
     return notFound();
   }
+  metadata.title = `Blog | ${article.title}`;
+  metadata.description = article.description;
   return (
     <div className={styles.blogPage}>
       <Header />
