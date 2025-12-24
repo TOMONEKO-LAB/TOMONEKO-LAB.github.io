@@ -18,14 +18,7 @@ export default function ArticleList({ conditions }: { conditions: Condition }) {
             (conditions.tags.length === 0 && conditions.keywords.length === 0)
           ) && (
             <Link
-              href={{
-                pathname: "/blog/article",
-                query: {
-                  title: article.title,
-                  tags: article.tags,
-                  content: article.content,
-                }
-              }}
+              href={`/blog/${article.slug}`}
               key={article.slug}
             >
               <article key={article.slug} className={styles['article-card']}>

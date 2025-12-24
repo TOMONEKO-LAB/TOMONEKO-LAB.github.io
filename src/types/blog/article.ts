@@ -6,5 +6,3 @@ export type Article = {
   slug?: string;
   content?: string;
 }
-
-export default Article;
