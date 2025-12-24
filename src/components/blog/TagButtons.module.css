@@ -1,0 +1,37 @@
+.tag-buttons {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 0.5rem;
+	width: 100%;
+	max-width: 720px;
+	margin: 0 auto;
+}
+
+.tag-button {
+	background: rgba(255,255,255,0.03);
+	color: var(--text);
+	border: 1px solid rgba(255,255,255,0.06);
+	padding: 0.5rem 0.75rem;
+	border-radius: 6px;
+	text-align: center;
+	width: 100%;
+}
+
+.tag-button.selected {
+	background: var(--main);
+	color: #ffffff;
+	border-color: rgba(255,255,255,0.08);
+}
+
+/* expose a standalone selected class so JS can toggle it via CSS modules */
+.selected {
+	background: var(--main);
+	color: #ffffff;
+	border-color: rgba(255,255,255,0.08);
+}
+
+@media (max-width: 640px) {
+	.tag-buttons {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}

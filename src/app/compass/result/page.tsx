@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
-import useCompassData from "@/hooks/useCompassData"
+import useCompassData from "@/hooks/compass/useCompassData"
 import RouletteResult from "@/components/compass/RouletteResult"
 
 export default function ResultPage() {

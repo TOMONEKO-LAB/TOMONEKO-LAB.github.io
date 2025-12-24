@@ -1,0 +1,5 @@
+.header {
+	text-align: center;
+	background: linear-gradient(90deg, var(--main), rgba(14,57,123,0.9));
+	color: var(--accent);
+}

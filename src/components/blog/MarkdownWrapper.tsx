@@ -3,21 +3,21 @@ import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 import remarkBreaks from 'remark-breaks';
+import { Article } from "@/types/blog/article";
+import styles from './MarkdownWrapper.module.css';
 import 'katex/dist/katex.min.css';
 
-import fs from 'fs';
-import path from 'path';
-
-export default function MarkdownWrapper({ filePath }: Readonly<{ filePath: string }>) {
-  const fullPath = path.join(process.cwd(), `public/blog/${filePath}`);
-  const markdown = fs.readFileSync(fullPath, 'utf-8');
+export default function MarkdownWrapper({ article }: { article: Article }) {
   return (
-    <div className="prose">
-      <Markdown
-        remarkPlugins={[remarkGfm, remarkMath, remarkBreaks]}
-        rehypePlugins={[rehypeKatex]}
-      >
-        {markdown}
-      </Markdown>
-    </div>);
+    <main>
+      <div className={"prose " + styles["markdown-wrapper"]}>
+        <Markdown
+          remarkPlugins={[remarkGfm, remarkMath, remarkBreaks]}
+          rehypePlugins={[rehypeKatex]}
+        >
+          {article.content}
+        </Markdown>
+      </div>
+    </main>
+  );
 }
