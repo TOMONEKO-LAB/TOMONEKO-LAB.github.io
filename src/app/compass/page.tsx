@@ -45,7 +45,7 @@ export default function CompassPage() {
     const heroPool = allChars.filter((h) => {
       const info = heroMap?.[h]
       if (!info) return true
-      const roleOk = enabledRoles.includes(info.role ?? "")
+      const roleOk = enabledRoles.includes(info.role)
       const collabOk = (info.isCollab && heroCollab["コラボ"]) || (!info.isCollab && heroCollab["通常"]) || false
       return roleOk && collabOk
     })
@@ -70,7 +70,7 @@ export default function CompassPage() {
     const filteredCards = allCards.filter((c) => {
       const info = cardMap?.[c]
       if (!info) return true
-      const rarityOk = enabledRarities.includes(info.rarity ?? "")
+      const rarityOk = enabledRarities.includes(info.rarity)
       const typeOk = enabledTypes.includes(info.type ?? "通常")
       return rarityOk && typeOk
     })
