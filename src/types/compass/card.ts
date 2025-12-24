@@ -1,12 +1,10 @@
-export type CardInfo = {
-  attribute?: string;
-  rarity?: string;
-  skill?: string;
-  type?: string;
-  rank?: string;
-  [k: string]: unknown;
+export type Card = {
+  attribute: string
+  rarity: string
+  skill: string
+  type: string
+  rank: string
+  description?: string
 }
 
-export type CardData = Record<string, CardInfo>;
-
-export default CardData;
+export type CardMap = Record<string, Card>

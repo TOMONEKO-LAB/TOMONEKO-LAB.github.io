@@ -1,10 +1,5 @@
-export type StageInfo = {
-  name?: string;
-  difficulty?: string;
-  member?: number;
-  [k: string]: unknown;
+export type Stage = {
+  member: number
 }
 
-export type StageData = Record<string, StageInfo>;
-
-export default StageData;
+export type StageMap = Record<string, Stage>

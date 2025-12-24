@@ -1,11 +1,8 @@
-export type HeroInfo = {
-  name?: string;
-  title?: string;
-  role?: string;
-  isCollab?: boolean;
-  [k: string]: unknown;
+export type Hero = {
+  role: string
+  card: Record<string, string>
+  isCollab: boolean
+  description?: string
 }
 
-export type HeroData = Record<string, HeroInfo>;
-
-export default HeroData;
+export type HeroMap = Record<string, Hero>
